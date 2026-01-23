@@ -1,43 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Uni Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Artist Portfolio</title>
+    <link rel="stylesheet" href="/Users/nunnapatsamakka/AliceWork/CE154-Assignment1/style.css">
 </head>
 
 <body>
-    <header class="container">
-        <h1>My Project</h1>
-        <p class="subtitle">A simple website that opens from an HTML file.</p>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <nav class="nav-bar">
+            <div class="nav-logo">
+                <a href="#">Artist Name</a>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#basket">Basket</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="container">
-        <section class="card">
-            <h2>About</h2>
-            <p>
-                This website is a static site. It works offline and can be opened by double-clicking index.html.
-            </p>
-            <button id="helloBtn">Click me</button>
-            <p id="msg" class="msg"></p>
+    <!-- Home Section -->
+    <main>
+        <section id="home" class="section">
+            <h1>Artist Name</h1>
+            <p>Welcome to the portfolio website of a contemporary artist.</p>
         </section>
 
-        <section class="card">
-            <h2>Links</h2>
-            <ul>
-                <li><a href="https://www.essex.ac.uk" target="_blank" rel="noreferrer">University website</a></li>
-                <li><a href="page2.html">Go to Page 2 (offline)</a></li>
-            </ul>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About the Artist</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+
+        <!-- Shop Section -->
+        <section id="shop" class="section">
+            <h2>Merchandise</h2>
+            <p>Browse a selection of artwork-inspired merchandise.</p>
+        </section>
+
+        <!-- Basket Section -->
+        <section id="basket" class="section">
+            <h2>Basket</h2>
+            <p>Your selected items will appear here.</p>
         </section>
     </main>
 
-    <footer class="container footer">
-        <small>© 2026 Your Name</small>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>© 2026 Artist Name | Last updated: March 2026</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 
 </html>

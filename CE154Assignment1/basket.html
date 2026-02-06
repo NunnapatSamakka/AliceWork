@@ -1,0 +1,105 @@
+<!-- Alice Samakka PRID: SAMAK22609-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Shrigley's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <nav class="nav-bar">
+            <div class="nav-logo">
+                <a href="index.html">David Shrigley</a>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="basket.html" class="active">Basket</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ 
+    <main>
+        <h1>Your Basket</h1>
+        <p>Review the items you have selected</p>
+
+        <!-- Basket Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Edit/Remove</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- Item 1 -->
+                <tr>
+                    <td>
+                        <img src="images/mug.jpg" alt="david-shrigley-opening-hours-mug" width="80">
+                    </td>
+                    <td>
+                        <strong>Mug</strong>
+                    </td>
+                    <td>£12.00</td>
+                    <td>
+                        <input type="number" value="1" min="1" aria-label="Quantity">
+                    </td>
+                    <td>
+                        <a href="#" class="remove">Remove</a> <!--fake remove link-->
+                    </td>
+                </tr>
+
+                <!-- Item 2 -->
+                <tr>
+                    <td>
+                        <img src="images/tshirt.jpg" alt="David Shrigley t-shirt" width="80">
+                    </td>
+                    <td>
+                        <strong>Artist T-Shirt</strong>
+                    </td>
+                    <td>£12.00</td>
+                    <td>
+                        <input type="number" value="1" min="1" aria-label="Quantity">
+                    </td>
+                    <td>
+                        <a href="#" class="remove">Remove</a> <!--fake remove link-->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Basket Summary -->
+        <section class="basket-summary">
+            <h2>Order Summary</h2>
+            <p><strong>Subtotal:</strong> £24.00</p>
+            <p><strong>Total:</strong> £24.00</p>
+
+            <!-- Disabled button -->
+            <button disabled>Proceed to Checkout</button> <!-- Fake Button-->
+        </section>
+
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>© 2026 David Shrigley | Last updated: Febuary 2026</p>
+    </footer>
+
+</body>
+
+</html>
